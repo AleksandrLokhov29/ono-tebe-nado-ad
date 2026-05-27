@@ -3,11 +3,12 @@
 .header {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  padding: 92px 51px 92px 49px;
+  padding: 92px 0 92px 0;
 }
 
 .header__menu {
   padding-top: 43px;
+  padding-left: 51px;
 }
 
 .header__links-list {
@@ -16,7 +17,7 @@
   list-style: circle outside;
 }
 
-.header__links-list-item_no-bullit {
+.header__links-list-item_no_bullit {
   list-style: none;
 }
 
@@ -36,7 +37,7 @@
 
 .header__address {
   justify-self: end;
-  padding: 5px 3px 0 0;
+  padding: 5px 49px 0 0;
   font-style: normal;
   line-height: 135%;
   text-underline-position: under;
@@ -50,7 +51,7 @@
   display: flex;
   flex-direction: column;
   gap: 135px;
-  padding: 165px 50px 50px;
+  padding: 165px 0 50px 0;
   background: url("../images/cover.jpg") no-repeat center / cover;
 }
 
@@ -69,6 +70,8 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .aligned-text {
@@ -102,6 +105,8 @@
   justify-content: flex-end;
   align-items: center;
   gap: 78px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .cover__description-text {
@@ -130,7 +135,7 @@
 .lots {
   display: flex;
   flex-direction: column;
-  padding: 180px 50px 181px;
+  padding: 180px 0 181px 0;
 }
 
 .lots__heading {
@@ -138,17 +143,19 @@
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
+  padding-left: 10px;
 }
 
 .lots__card-list {
   display: flex;
   gap: 25px;
   list-style: none;
+  padding: 0 50px;
 }
 
 .lots__card-list-item {
-  flex-grow: 1;
-  width: 430px;
+  flex: 1;
+  min-width: 280px;
   min-height: 450px;
 }
 
@@ -208,6 +215,7 @@
   font-size: 20px;
   text-underline-position: under;
   text-underline-offset: 0.05em;
+  padding-left: 90px;
 }
 
 
@@ -217,7 +225,7 @@
   display: grid;
   grid-template-columns: 430px 1fr;
   gap: 25px;
-  padding: 0 50px 180px;
+  padding: 0;
   justify-items: center;
 }
 
@@ -229,6 +237,7 @@
   height: 240px;
   border-radius: 50%;
   background-color: #000;
+  margin-left: 50px;
 }
 
 .about__logo-image {
@@ -242,6 +251,7 @@
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
+  padding-right: 50px;
 }
 
 .about__text {
@@ -252,6 +262,7 @@
   font-weight: 400;
   line-height: normal;
   font-style: normal;
+  padding-right: 50px;
 }
 
 
